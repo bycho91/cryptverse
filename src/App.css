@@ -52,6 +52,10 @@ a:hover {
   background-color: #001529;
 }
 
+.nav-container .mobile-menu {
+  display: none;
+}
+
 .logo-container {
   background-color: #001529;
   display: -webkit-box;
@@ -125,6 +129,7 @@ a:hover {
     -webkit-box-flex: 1;
         -ms-flex: 1;
             flex: 1;
+    height: 8vh;
   }
   .main {
     -webkit-box-flex: 1;
@@ -140,6 +145,21 @@ a:hover {
     width: 100%;
     z-index: 100;
     background-color: var(--bgSecondary);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .nav-container .desktop-menu {
+    display: none;
+  }
+  .nav-container .mobile-menu {
+    display: block;
+    background: #001529;
+    padding: 2.23em 0;
+    cursor: pointer;
   }
   .menu-control-container {
     display: block !important;
