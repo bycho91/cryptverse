@@ -17,4 +17,4 @@
 
 ## Things to continue to work on
 
-## stopped at 50:30
+## stopped at 1:31:42
