@@ -1,6 +1,6 @@
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 
-const { REACT_APP_CRYPTO_API_KEY } = process.env.local;
+const { REACT_APP_CRYPTO_API_KEY } = process.env;
 
 const cryptoNewsHeaders = {
   "x-bingapis-sdk": "true",
